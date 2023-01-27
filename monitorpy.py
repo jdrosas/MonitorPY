@@ -19,7 +19,7 @@ sensor = dht.DHT22(Pin(2))
 
 #-----------------------------------------[Conexion WIFI]-------------------------------------------------------#
 
-time.sleep(20)
+time.sleep(10)
 
 def conectaWifi (red, password):
       global miRed
