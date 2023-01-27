@@ -18,6 +18,7 @@ from machine import Pin
 sensor = dht.DHT22(Pin(2))
 
 #-----------------------------------------[Conexion WIFI]-------------------------------------------------------#
+time.sleep(20)
 
 def conectaWifi (red, password):
       global miRed
